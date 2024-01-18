@@ -139,7 +139,7 @@
             我的收藏
           </view>
         </view>
-        <view
+        <!-- <view
           class="col-item"
           @tap="handleTips"
         >
@@ -178,11 +178,11 @@
           <view class="tit">
             我的足迹
           </view>
-        </view>
+        </view> -->
       </view>
 
       <view class="my-menu">
-        <view
+        <!-- <view
           class="memu-item"
           @tap="toDistCenter"
         >
@@ -211,7 +211,7 @@
             <text>我的优惠券</text>
           </view>
           <view class="arrowhead" />
-        </view>
+        </view> -->
         <view
           class="memu-item"
           @tap="toAddressList"
