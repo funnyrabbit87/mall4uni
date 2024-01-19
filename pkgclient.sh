@@ -19,9 +19,9 @@ else
     echo "admin already exis#ts."
 fi
 
-cd "${curdir}"
-echo "${curdir}"
-docker build -t wineweb:2.0 -f ./Dockerfile .
+# cd "${curdir}"
+# echo "${curdir}"
+# docker build -t wineweb:2.0 -f ./Dockerfile .
 # docker build \
 # --build-arg http_proxy=http://172.29.32.1:10809 \
 # --build-arg https_proxy=http://172.29.32.1:10809 \
